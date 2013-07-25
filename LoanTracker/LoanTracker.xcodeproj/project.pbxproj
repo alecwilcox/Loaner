@@ -19,8 +19,8 @@
 		370F5E9B17A1B5AA003538F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 370F5E9A17A1B5AA003538F4 /* Default-568h@2x.png */; };
 		370F5E9E17A1B5AA003538F4 /* LoanTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 370F5E9C17A1B5AA003538F4 /* LoanTracker.xcdatamodeld */; };
 		370F5EA517A1B66A003538F4 /* Main.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370F5EA417A1B66A003538F4 /* Main.Storyboard */; };
-		370F5EA817A1BB02003538F4 /* Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F5EA717A1BB02003538F4 /* Description.m */; };
-		370F5EAB17A1BB2E003538F4 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F5EAA17A1BB2E003538F4 /* MainView.m */; };
+		37D4B56A17A1D69F0015B2D4 /* ListViewContoroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4B56917A1D69F0015B2D4 /* ListViewContoroller.m */; };
+		37D4B56D17A1D6BB0015B2D4 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4B56C17A1D6BB0015B2D4 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +40,10 @@
 		370F5E9A17A1B5AA003538F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		370F5E9D17A1B5AA003538F4 /* LoanTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoanTracker.xcdatamodel; sourceTree = "<group>"; };
 		370F5EA417A1B66A003538F4 /* Main.Storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.Storyboard; sourceTree = "<group>"; };
-		370F5EA617A1BB02003538F4 /* Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Description.h; sourceTree = "<group>"; };
-		370F5EA717A1BB02003538F4 /* Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Description.m; sourceTree = "<group>"; };
-		370F5EA917A1BB2E003538F4 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
-		370F5EAA17A1BB2E003538F4 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		37D4B56817A1D69F0015B2D4 /* ListViewContoroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewContoroller.h; sourceTree = "<group>"; };
+		37D4B56917A1D69F0015B2D4 /* ListViewContoroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewContoroller.m; sourceTree = "<group>"; };
+		37D4B56B17A1D6BB0015B2D4 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		37D4B56C17A1D6BB0015B2D4 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +96,11 @@
 				370F5E9417A1B5AA003538F4 /* AppDelegate.m */,
 				370F5E9C17A1B5AA003538F4 /* LoanTracker.xcdatamodeld */,
 				370F5EA417A1B66A003538F4 /* Main.Storyboard */,
-				370F5EA617A1BB02003538F4 /* Description.h */,
-				370F5EA717A1BB02003538F4 /* Description.m */,
-				370F5EA917A1BB2E003538F4 /* MainView.h */,
-				370F5EAA17A1BB2E003538F4 /* MainView.m */,
 				370F5E8B17A1B5AA003538F4 /* Supporting Files */,
+				37D4B56817A1D69F0015B2D4 /* ListViewContoroller.h */,
+				37D4B56917A1D69F0015B2D4 /* ListViewContoroller.m */,
+				37D4B56B17A1D6BB0015B2D4 /* DetailsViewController.h */,
+				37D4B56C17A1D6BB0015B2D4 /* DetailsViewController.m */,
 			);
 			path = LoanTracker;
 			sourceTree = "<group>";
@@ -188,8 +188,8 @@
 				370F5E9117A1B5AA003538F4 /* main.m in Sources */,
 				370F5E9517A1B5AA003538F4 /* AppDelegate.m in Sources */,
 				370F5E9E17A1B5AA003538F4 /* LoanTracker.xcdatamodeld in Sources */,
-				370F5EA817A1BB02003538F4 /* Description.m in Sources */,
-				370F5EAB17A1BB2E003538F4 /* MainView.m in Sources */,
+				37D4B56A17A1D69F0015B2D4 /* ListViewContoroller.m in Sources */,
+				37D4B56D17A1D6BB0015B2D4 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +308,7 @@
 				370F5EA317A1B5AA003538F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,5 +1,5 @@
 //
-//  Description.h
+//  DetailsViewController.h
 //  LoanTracker
 //
 //  Created by Kyle Ford on 7/25/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Description : UITableViewController
-//alec was her
+@interface DetailsViewController : UITableViewController
+
 @end

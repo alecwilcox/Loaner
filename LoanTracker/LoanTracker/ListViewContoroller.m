@@ -1,18 +1,18 @@
 //
-//  Description.m
+//  ListViewContoroller.m
 //  LoanTracker
 //
 //  Created by Kyle Ford on 7/25/13.
 //  Copyright (c) 2013 TinkerSoft. All rights reserved.
 //
 
-#import "Description.h"
+#import "ListViewContoroller.h"
 
-@interface Description ()
+@interface ListViewContoroller ()
 
 @end
 
-@implementation Description
+@implementation ListViewContoroller
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
