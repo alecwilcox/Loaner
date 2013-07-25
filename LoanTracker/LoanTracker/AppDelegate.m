@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  LoanTracker
 //
-//  Created by Kyle Ford on 7/25/13.
+//  Created by Kyle Ford and Alexander Wilcox on 7/25/13.
 //  Copyright (c) 2013 TinkerSoft. All rights reserved.
 //
 
