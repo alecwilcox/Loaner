@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Details" representedClassName="Details" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="list" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ListVC" inverseName="details" inverseEntity="ListVC" syncable="YES"/>
+    </entity>
+    <entity name="ListVC" representedClassName="ListVC" syncable="YES">
+        <attribute name="list" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="view" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="details" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Details" inverseName="list" inverseEntity="Details" syncable="YES"/>
+    </entity>
+    <entity name="Loans" syncable="YES">
+        <attribute name="bImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="dWhen" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sNotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sWhat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sWho" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ListVC" positionX="160" positionY="192" width="128" height="88"/>
+        <element name="Details" positionX="160" positionY="-9" width="128" height="88"/>
+        <element name="Loans" positionX="160" positionY="192" width="128" height="120"/>
+    </elements>
 </model>

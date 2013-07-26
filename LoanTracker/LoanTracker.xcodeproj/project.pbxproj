@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370012A617A2AC2E00BEFCC5 /* ListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 370012A517A2AC2E00BEFCC5 /* ListVC.m */; };
+		370012A917A2AC2E00BEFCC5 /* Details.m in Sources */ = {isa = PBXBuildFile; fileRef = 370012A817A2AC2E00BEFCC5 /* Details.m */; };
 		370F5E8317A1B5AA003538F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370F5E8217A1B5AA003538F4 /* UIKit.framework */; };
 		370F5E8517A1B5AA003538F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370F5E8417A1B5AA003538F4 /* Foundation.framework */; };
 		370F5E8717A1B5AA003538F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370F5E8617A1B5AA003538F4 /* CoreGraphics.framework */; };
@@ -24,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		370012A417A2AC2E00BEFCC5 /* ListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListVC.h; sourceTree = "<group>"; };
+		370012A517A2AC2E00BEFCC5 /* ListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListVC.m; sourceTree = "<group>"; };
+		370012A717A2AC2E00BEFCC5 /* Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Details.h; sourceTree = "<group>"; };
+		370012A817A2AC2E00BEFCC5 /* Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Details.m; sourceTree = "<group>"; };
 		370F5E7F17A1B5AA003538F4 /* LoanTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370F5E8217A1B5AA003538F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		370F5E8417A1B5AA003538F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +101,10 @@
 				370F5E9317A1B5AA003538F4 /* AppDelegate.h */,
 				370F5E9417A1B5AA003538F4 /* AppDelegate.m */,
 				370F5E9C17A1B5AA003538F4 /* LoanTracker.xcdatamodeld */,
+				370012A717A2AC2E00BEFCC5 /* Details.h */,
+				370012A817A2AC2E00BEFCC5 /* Details.m */,
+				370012A417A2AC2E00BEFCC5 /* ListVC.h */,
+				370012A517A2AC2E00BEFCC5 /* ListVC.m */,
 				370F5EA417A1B66A003538F4 /* Main.Storyboard */,
 				370F5E8B17A1B5AA003538F4 /* Supporting Files */,
 				37D4B56817A1D69F0015B2D4 /* ListViewContoroller.h */,
@@ -190,6 +200,8 @@
 				370F5E9E17A1B5AA003538F4 /* LoanTracker.xcdatamodeld in Sources */,
 				37D4B56A17A1D69F0015B2D4 /* ListViewContoroller.m in Sources */,
 				37D4B56D17A1D6BB0015B2D4 /* DetailsViewController.m in Sources */,
+				370012A617A2AC2E00BEFCC5 /* ListVC.m in Sources */,
+				370012A917A2AC2E00BEFCC5 /* Details.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +283,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoanTracker/LoanTracker-Prefix.pch";
 				INFOPLIST_FILE = "LoanTracker/LoanTracker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -283,7 +295,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoanTracker/LoanTracker-Prefix.pch";
 				INFOPLIST_FILE = "LoanTracker/LoanTracker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

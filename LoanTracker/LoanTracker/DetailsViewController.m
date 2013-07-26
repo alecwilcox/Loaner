@@ -10,6 +10,8 @@
 
 @interface DetailsViewController ()
 
+-(IBAction)save:(id)sender;
+
 @end
 
 @implementation DetailsViewController
@@ -38,5 +40,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - IBActions
+-(void)save:(id)sender
+{
+    //TODo
 }
 @end
